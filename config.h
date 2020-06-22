@@ -43,6 +43,9 @@ static unsigned int tripleclicktimeout = 600;
 /* alt screens */
 int allowaltscreen = 1;
 
+/* frames per second st should at maximum draw to the screen */
+static unsigned int xfps = 120;
+static unsigned int actionfps = 30;
 /* allow certain non-interactive (insecure) window operations such as:
    setting the clipboard text */
 int allowwindowops = 0;
