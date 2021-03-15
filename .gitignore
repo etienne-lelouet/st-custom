@@ -1,0 +1,10 @@
+# IDE files
+
+**/.vscode/*
+
+**/*.o
+
+**/st
+**/st.1
+
+**/config.h
